@@ -44,9 +44,8 @@ def handle_user_command(user_input):
 Return a string which gives the final score.
 '''
 def quit_game():
-    #write code here
-    pass
-
+    x=str(score)
+    print(x)
 
 '''
 This func should return the information of the room. 
@@ -80,7 +79,8 @@ def take_item(tokens):
 This function should return a string with the contents of the inventory
 '''
 def inventory_status():
-    pass
+    for i in range(len(inventory)):
+        print(inventory[i])
 
 
 '''
